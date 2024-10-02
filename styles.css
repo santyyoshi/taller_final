@@ -1,0 +1,42 @@
+
+body {
+    background-color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #c8102e;
+}
+
+nav a {
+    font-size: 18px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+}
+
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+.card {
+    border: 1px solid #222;
+    border-radius: 2%;
+}
+
+
+button {
+    margin: 10px 0;
+}
+
+.logo{
+    width: 50px;
+    margin: 10px;
+}

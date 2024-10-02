@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Liverpool FC</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="logo/Liverpool_FC.svg.png">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="bg-danger text-white p-4 text-center">
+        <h1>Liverpool FC - Contacto</h1>
+        <a href="index.html"><img class="logo" src="logo/Liverpool_FC.svg.png" alt="logo"></a>
+
+        <nav>
+            <a href="index.html" class="text-white mx-2">Inicio</a>
+            <a href="jugadores.html" class="text-white mx-2">Jugadores</a>
+            <a href="partidos.html" class="text-white mx-2">Partidos</a>
+            <a href="contacto.html" class="text-white mx-2">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Formulario -->
+    <main class="container mt-5">
+        <h2 class="text-center mb-4">Contáctanos</h2>
+
+        <form id="contactoForm">
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+            </div>
+            <div class="form-group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico">
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>Síguenos en nuestras redes sociales</p>
+        <a href="#" class="text-white mx-2">Facebook</a>
+        <a href="#" class="text-white mx-2">Twitter</a>
+        <a href="#" class="text-white mx-2">Instagram</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
